@@ -2,7 +2,7 @@
 LunaLoop Cycle Tracker helps you understand your cycle with a calmer, more readable experience built around privacy, clarity, and daily wellness.
 
 
-LUNALOOP
+
 Privacy Policy
 Last updated: April 14, 2026
 Overview
