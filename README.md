@@ -39,4 +39,4 @@ Your Choices
 	•	Choose whether to export or share any text outside the app
 Contact
 
-App privacy URL: https://anulfito1991-wq.github.io/privacy/
+App privacy URL: https://github.com/anulfito1991-wq/LunaLoop-Cycle-Tracker
