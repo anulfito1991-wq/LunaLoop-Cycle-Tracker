@@ -9,7 +9,7 @@
 **Need help? Have a question?**
 
 - 📬 **Open an issue**: [Submit a support request here](https://github.com/anulfito1991-wq/LunaLoop-Cycle-Tracker/issues/new) — we respond to all questions
-- 📧 **Email**: anulfito1991@gmail.com
+- 📧 **Email**: kidspark.academy.learning@gmail.com
 
 We are here to help with:
 - App setup and getting started
