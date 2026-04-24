@@ -1,6 +1,8 @@
-# LunaLoop — Support
+# Ola — Support
 
-**LunaLoop Cycle Tracker** helps you understand your cycle with a calmer, more readable experience built around privacy, clarity, and daily wellness.
+**Ola — Private Cycle Tracker** helps you understand your menstrual cycle with a calmer, more readable experience built around **privacy, clarity, and daily wellness**. All cycle data stays on your device.
+
+> *"La ola de tu cuerpo."* — The wave of your body.
 
 ---
 
@@ -8,7 +10,7 @@
 
 **Need help? Have a question?**
 
-- 📬 **Open an issue**: [Submit a support request here](https://github.com/anulfito1991-wq/LunaLoop-Cycle-Tracker/issues/new) — we respond to all questions
+- 📬 **Open an issue**: [Submit a support request here](https://github.com/anulfito1991-wq/ola-cycle-tracker/issues/new) — we respond to all questions
 - 📧 **Email**: kidspark.academy.learning@gmail.com
 
 We are here to help with:
@@ -21,53 +23,73 @@ We are here to help with:
 
 ## 📋 Terms of Use (EULA)
 
-LunaLoop uses the standard Apple End User License Agreement (EULA):
+Ola uses the standard Apple End User License Agreement (EULA):
 [https://www.apple.com/legal/internet-services/itunes/dev/stdeula/](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
 
 ---
 
 ## 🔒 Privacy Policy
 
-**Last updated: April 14, 2026**
+**Last updated: April 24, 2026**
 
 ### Overview
-LunaLoop is designed to store your cycle profile, reminders, and daily logs locally on your device.
+Ola is designed to store your cycle profile, reminders, and daily logs **locally on your device**. Nothing is uploaded to any Ola server; there are no Ola servers.
 
 ### Data We Handle
-LunaLoop may store the following information on-device:
+Ola may store the following information on-device:
 - Cycle profile details such as last period start date, cycle length, and period length
-- Daily check-in details such as flow, mood, energy, cramps, sleep, workouts, and notes
-- Reminder preferences
+- Life-stage setting (cycling / pregnant / postpartum / perimenopause / menopause) and, if applicable, due date
+- Daily check-in details such as flow, mood, energy, cramps, sleep, workouts, notes, water intake, weight, sexual activity, and contraceptive dose
+- Contraceptive method tracking (pill / patch / ring / IUD / HRT / etc.) for optional dose reminders
+- Reminder preferences (daily check-in, period, fertile window, phase transition, contraceptive dose)
+- Optional Face ID / Touch ID / passcode app-lock setting
 - Product feedback entries and local product journal notes
 - Local analytics events used only inside the app to understand feature usage within this build
 
 ### How Data Is Used
-LunaLoop uses this information to:
+Ola uses this information to:
 - Estimate cycle phase and related trends
 - Show reminders and daily recommendations
-- Display your history in the app
-- Support optional local product-review tools such as feedback exports
+- Display your cycle history, patterns, and charts in the app
+- Optionally enrich insights by reading from Apple Health (resting heart rate, sleep, workouts, basal body temperature, body mass) — **read-only**, Ola never writes to Health
+- Optionally write period + fertile-window days to a dedicated "Ola Cycle" calendar in Apple Calendar — **write-only**, Ola never reads your other events
+- Generate a doctor-visit PDF summary or phase-share message you choose to send
 
 ### Data Sharing
-LunaLoop does not automatically send cycle logs, symptom logs, or notes to a remote server in this build. If you choose to export text from the app or open an external feedback board link, you decide whether to share information outside the app.
+Ola does **not** automatically send cycle logs, symptom logs, or notes to a remote server. If you choose to export a PDF, share a phase note, write to Apple Calendar, or open an external feedback board link, **you** decide whether to share information outside the app.
 
 ### Tracking
-LunaLoop does not track you across apps or websites.
+Ola does not track you across apps or websites. Ola has no advertising identifier, no analytics SDK, and no telemetry sent off-device.
 
 ### Third Parties
-LunaLoop may open external links you choose to visit, such as a browser-based feedback board. Those destinations have their own privacy practices.
+Ola may open external links you choose to visit, such as a browser-based feedback board, the App Store, or Apple's standard EULA page. Those destinations have their own privacy practices.
 
 ### Notifications
-If you enable reminders, LunaLoop uses local notification permissions to send daily check-in reminders and period reminder alerts you choose to receive.
+If you enable reminders, Ola uses local notification permissions to send daily check-in reminders, period reminders, fertile-window alerts, phase-transition alerts, and contraceptive-dose alerts you choose to receive. All notifications are scheduled and delivered locally on your device.
+
+### Apple Health
+If you connect Apple Health, Ola reads only: resting heart rate, sleep analysis, workouts, basal body temperature, and body mass. Ola never writes to Apple Health. All processing stays on-device.
+
+### Apple Calendar
+If you opt in to Apple Calendar sync, Ola writes period and fertile-window days to a dedicated "Ola Cycle" calendar you can turn off at any time. Ola requests write-only access; it never reads your other events.
+
+### Face ID / Biometrics
+If you enable app lock, LocalAuthentication performs biometric matching inside the Secure Enclave on your device. No biometric data ever reaches Ola; we only receive a boolean "authenticated" result.
 
 ### Health Disclaimer
-LunaLoop provides general wellness education only. It is not medical advice, diagnosis, treatment, or contraception guidance. Cycle predictions are estimates and may be inaccurate. If you have severe, unusual, or worsening symptoms, or need medical guidance, consult a licensed clinician.
+Ola provides general wellness education only. **It is not medical advice, diagnosis, treatment, or contraception guidance.** Cycle predictions are estimates and may be inaccurate. If you have severe, unusual, or worsening symptoms, or need medical guidance, please consult a licensed clinician.
 
 ### Your Choices
-- Disable reminders in the Profile tab
+- Disable any or all reminders in the Me tab
+- Disconnect Apple Health at any time in your iOS Settings
+- Disable Apple Calendar sync — Ola removes all calendar events it authored
+- Turn off Face ID / app lock in the Me tab
 - Clear local analytics history in the Privacy Center
-- Delete the app to remove locally stored app data from the device
-- Choose whether to export or share any text outside the app
+- Delete the app to remove all locally stored app data from the device
+- Choose whether to export or share any text, PDF, or phase note outside the app
+
+### Changes to This Policy
+If we change this policy, we will update the "Last updated" date above.
 
 ### Contact
 For privacy questions: anulfito1991@gmail.com
